@@ -14,16 +14,13 @@ public class Data_14 {
 
 //      System.out.println(Arrays.toString(mass));
 
+        double minN = mass[0];
         double maxN = mass[0];
         for (int i = 1; i < mass.length; i++) {
             if (mass[i] > maxN) {
                 maxN = mass[i];
             }
-        }
-
-        double minN = mass[0];
-        for (int i = 1; i < mass.length; i++) {
-            if (mass[i] < minN) {
+            else if (mass[i] < minN) {
                 minN = mass[i];
             }
         }
