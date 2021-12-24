@@ -33,12 +33,15 @@ public class Final_4 {
                     System.out.println("Обидно, приходи в другой раз");
                     return;
                 }
+                else if (i ==3) {
+                    System.out.println("Обидно, приходи в другой раз");
+                    return;
+                }
+
                 else {
                     System.out.println("Подумай еще!");
                 }
             }
         }
-
-        System.out.println("Обидно, приходи в другой раз");
     }
 }
